@@ -2,7 +2,7 @@
 name: release-it
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
 
 jobs:
