@@ -1,9 +1,10 @@
 
-name: release-it
+name: build
 
 on:
   push:
-    tags: [ "*" ]
+    tags:        
+      - '*'
 
 jobs:
   build:
