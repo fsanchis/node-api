@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-const { version } = require('../package.json');
+import { version } from '../package.json';
 
 describe('AppController', () => {
   let appController: AppController;
