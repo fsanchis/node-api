@@ -2,9 +2,10 @@
 name: build
 
 on:
-  push:
-    branches:
-      - 'releases/**'
+  workflow_run:
+    workflows: ["release-it"]
+    types:
+      - completed
 
 jobs:
   build:
