@@ -1,5 +1,5 @@
 
-name: release-it
+name: release-it-beta
 
 on:
   push:
